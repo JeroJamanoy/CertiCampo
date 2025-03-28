@@ -1,0 +1,85 @@
+.background-registro-cultivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    font-family:sans-serif;
+    height: 100vh;
+}
+
+.background-registro-cultivos h1 {
+    color: #7D2181;
+    font-size: 250%;
+}
+
+.background-registro-cultivos span {
+    text-align: center;
+    font-size: 115%;
+    padding-bottom: 20px;
+}
+
+.botones-registro {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.botones-registro button{
+    font-weight: 500;
+    padding: 50px 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones-registro button img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #7D2181;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.botones-registro button:hover img{
+    background-color: #7D2181;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.botones-registro button:hover span{
+    color: #7D2181;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.tabla-registros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    border-collapse: collapse;
+    padding-bottom: 100px;
+}
+
+.tabla-registros th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+.tabla-registros th{
+    background-color: #7D2181;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-registros tr:nth-child(even){
+    background-color: #cdaafa;
+}
+
